@@ -22,6 +22,8 @@ const showProducts = (products) => {
       </div>
       <h3>${product.title}</h3>
       <p>Category: ${product.category}</p>
+      <p>People Rated: ${product.rating.count}</p>
+      <p>Average Rating: ${product.rating.rate}</p>
       <h2>Price: $ ${product.price}</h2>
       <button onclick="addToCart(${product.id},${product.price})" id="addToCart-btn" class="buy-now btn btn-success">Add to cart</button>
       <button id="details-btn" class="btn btn-danger">Details</button></div>
