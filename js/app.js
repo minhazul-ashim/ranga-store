@@ -23,8 +23,8 @@ const showProducts = (products) => {
       <p class='text-info product-rating'>Average Rating: <strong>${product.rating.rate}</strong></p>
       <h2>Price: $ ${product.price}</h2>
       <div class='product-btns'>
-      <button onclick="addToCart(${product.id},${product.price})" id="addToCart-btn" class="buy-now btn btn-success">Add to cart</button>
-      <button id="details-btn" class="btn btn-danger">Details</button>
+      <button onclick="addToCart(${product.id},${product.price})" id="addToCart-btn" class="buy-now btn btn-info">Add to cart</button>
+      <button id="details-btn" class="btn btn-warning">Details</button>
       </div>
       </div>
       `;
