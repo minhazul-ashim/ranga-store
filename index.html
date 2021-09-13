@@ -21,10 +21,17 @@
   <header></header>
   <main class="main">
     <div class="search-field">
-      <div class="search-box">
+      <!-- <div class="search-box">
         <input id="input-field" class="search-field" type="text" />
         <button id='search-btn' type="button" class="btn btn-primary search-button" data-toggle="button"
           aria-pressed="false" autocomplete="off" id="search-btn" onclick="loadProducts()">
+          Search
+        </button>
+      </div> -->
+      <div class="search-box">
+        <input id="input-field" class="search-field" type="text" />
+        <button id='search-btn' type="button" class="search-button" data-toggle="button" aria-pressed="false"
+          autocomplete="off" onclick="loadProducts()">
           Search
         </button>
       </div>
@@ -39,7 +46,7 @@
         <div class="cart" id="my-cart">
           <table class="table">
             <thead>
-              <h1 class='text-center'>My-Cart</h1>
+              <h1 class='text-center'>Cart Info</h1>
               <tr>
                 <th scope="col"></th>
                 <th scope="col"></th>
@@ -80,7 +87,7 @@
             </tbody>
           </table>
           <div class="parces text-center">
-            <button class="btn btn-primary text-center">Buy Now</button>
+            <button class="btn btn-primary">Buy Now</button>
           </div>
         </div>
       </div>
